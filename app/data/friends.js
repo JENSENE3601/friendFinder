@@ -1,170 +1,164 @@
-// ===============================================================================
-// DATA
-// Below data will hold all of the reserved tables.
-// Initially we just set it equal to a "dummy" customer.
-// But you could have it be an empty array as well.
-// ===============================================================================
 var friends = [
   {
-      "name":"Owen",
-      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-      "scores":[
-         5,
-         1,
-         4,
-         4,
-         5,
-         1,
-         2,
-         5,
-         4,
-         1
-          ]
-      },
+     "name":"Jerry Seinfeld",
+     "photo":"https://www.datingforgirls.net/wp-content/uploads/2016/09/jerry-seinfeld.jpg",
+     "scores":[
+       3,
+       1,
+       4,
+       1,
+       3,
+       5,
+       3,
+       1,
+       1,
+       5
+        ]
+  },
   {
-  "name":"Pavan",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     4,
-     5,
-     1,
-     2,
-     5,
-     4,
-     1
-      ]
-},
-{
-  "name":"Angel",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     9,
-     1,
-     4,
-     4,
-     5,
-     1,
-     2,
-     5,
-     4,
-     1
-      ]
-},
-{
-  "name":"Karina",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Miriam",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Lisa",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Nicole",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Jason",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Nate",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-},
-{
-  "name":"Ken",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-     5,
-     1,
-     4,
-     3,
-     2,
-     6,
-     9,
-     8,
-     9,
-     9
-      ]
-}
+    "name":"Cosmo Kramer",
+    "photo":"https://https://img.buzzfeed.com/buzzfeed-static/static/2014-12/21/22/campaign_images/webdr08/23-life-lessons-cosmo-kramer-taught-us-2-1992-1419219539-8_dblbig.jpg",
+    "scores":[
+       3,
+       2,
+       3,
+       4,
+       5,
+       5,
+       5,
+       5,
+       3,
+       3
+        ]
+  },
+  {
+    "name":"George Costanza",
+    "photo":"https://uproxx.files.wordpress.com/2014/09/george-costanza.jpg?quality=95&w=650",
+    "scores":[
+       4,
+       5,
+       1,
+       2,
+       1,
+       5,
+       3,
+       5,
+       1,
+       3
+        ]
+  },
+  {
+    "name":"Elaine Benes",
+    "photo":"http://www.seinfeldscripts.com/images/elaine1.jpg",
+    "scores":[
+       5,
+       3,
+       3,
+       1,
+       1,
+       4,
+       3,
+       2,
+       1,
+       4
+        ]
+  },
+  {
+    "name":"Newman",
+    "photo":"https://uproxx.files.wordpress.com/2015/06/newman1.jpg?quality=95&w=650",
+    "scores":[
+       1,
+       4,
+       2,
+       2,
+       1,
+       5,
+       4,
+       4,
+       3,
+       4
+        ]
+  },
+  {
+    "name":"Soup Nazi",
+    "photo":"https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2015%2F01%2Fsoup-nazi_320.jpg%3Fw%3D320&w=700&q=85",
+    "scores":[
+       1,
+       1,
+       5,
+       1,
+       1,
+       1,
+       5,
+       3,
+       1,
+       5
+        ]
+  },
+  {
+    "name":"Pirate Shirt",
+    "photo":"http://storm.cis.fordham.edu/~kendall/JerrySeinfeld.png",
+    "scores":[
+       5,
+       5,
+       5,
+       5,
+       5,
+       5,
+       5,
+       5,
+       5,
+       5
+        ]
+  },
+  {
+    "name":"Uncle Leo",
+    "photo":"http://cdn1-www.craveonline.com/assets/mandatory/legacy/2015/07/man_file_1059914_seinfeld.PNG",
+    "scores":[
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+        ]
+  },
+  {
+    "name":"Poppie",
+    "photo":"https://i.pinimg.com/736x/7f/6a/df/7f6adf5656d89dc29f0d2c4f39312d54--seinfeld-characters-special-a.jpg",
+    "scores":[
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       2,
+       2,
+       3,
+       1
+        ]
+  },
+  {
+    "name":"J. Peterman",
+    "photo":"https://d4ssrj5w1k888.cloudfront.net/Blog+Pics/Seinfeld_Shirts/j-peterman.jpg",
+    "scores":[
+       5,
+       5,
+       4,
+       5,
+       5,
+       5,
+       5,
+       5,
+       5,
+       5
+        ]
+  }
 ]
 
 // Note how we export the array. This makes it accessible to other files using require.
